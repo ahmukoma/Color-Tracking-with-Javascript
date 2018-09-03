@@ -48,8 +48,7 @@
 				video.src = vendorUrl.createObjectURL(stream);
 				video.play();
 			}, function(error){
-				// an error occured
-				// error.code
+				alert("An error occured. Try using IE/MS Edge.");
 			});
 			
 			video.addEventListener("play", function(){
